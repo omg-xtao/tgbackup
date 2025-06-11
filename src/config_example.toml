@@ -1,0 +1,24 @@
+API_ID = 21724
+API_HASH = "3e0cb5efcd52300aec5994fdfc5bdc16"
+bot_token = "abc"
+session_file = "tgbackup.session"
+[backup]
+batch_size = 100
+db_json = "/data/db.json"
+cache = -1000000000000
+[backup.interval]
+seconds = 60
+minutes = 0
+hours = 0
+days = 0
+weeks = 0
+
+[[channels]]
+from = -1000000000000
+to = -1000000000000
+
+[proxy]
+enable = false
+proxy_type = "http"
+addr = "127.0.0.1"
+port = 7890

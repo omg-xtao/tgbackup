@@ -1,0 +1,14 @@
+[project]
+name = "tgbackup"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "apscheduler>=3.11.0",
+    "cryptg>=0.5.0.post0",
+    "hachoir>=3.3.0",
+    "moviepy>=2.1.2",
+    "telethon>=1.40.0",
+    "tinydb>=4.8.2",
+]
